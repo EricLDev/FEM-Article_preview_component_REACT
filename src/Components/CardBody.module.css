@@ -1,0 +1,17 @@
+.cardBody {
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    text-align: left;
+}
+
+.cardBodyTitle {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: hsl(217, 19%, 35%);
+    margin-bottom: 1rem;
+}
+
+.cardBodyText {
+    color: hsl(214, 17%, 51%);
+    padding-right: 1.25rem;
+    line-height: 1.55rem;
+}

@@ -1,0 +1,16 @@
+.header {
+    height: 15.5rem;
+    overflow: hidden;
+    position: relative;
+    border-radius: .75rem .75rem 0 0;
+}
+
+.drawers {
+    width: 100%;
+    border-radius: .75rem .75rem 0 0;
+    position: absolute;
+    left: 0;
+    bottom: -3.7rem;
+
+
+}
