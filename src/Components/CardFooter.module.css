@@ -3,8 +3,22 @@
     justify-content: start;
     align-items: center;
     width: 100%;
-    padding: 0 2.5rem 1.75rem 2.5rem;
+    padding: 1.25rem 2.5rem;
+}
 
+.footerClicked {
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 0 0 .75rem .75rem;
+}
+
+.socialIcons img {
+    margin: 0 .5rem;
+}
+
+.footerClicked p {
+    color: hsl(212, 23%, 69%);
+    letter-spacing: .5rem;
+    margin-right: .75rem;
 }
 
 .avatar {
@@ -28,7 +42,7 @@
     color: hsl(212, 23%, 69%)
 }
 
-.share {
+.shareBtn {
     margin-left: auto;
     border: none;
     border-radius: 50%;
