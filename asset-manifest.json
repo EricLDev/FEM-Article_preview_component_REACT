@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FEM-Article_preview_component_REACT/static/css/main.319750f5.css",
+    "main.js": "/FEM-Article_preview_component_REACT/static/js/main.f4af8b9a.js",
+    "static/js/787.5a5a19d0.chunk.js": "/FEM-Article_preview_component_REACT/static/js/787.5a5a19d0.chunk.js",
+    "index.html": "/FEM-Article_preview_component_REACT/index.html",
+    "main.319750f5.css.map": "/FEM-Article_preview_component_REACT/static/css/main.319750f5.css.map",
+    "main.f4af8b9a.js.map": "/FEM-Article_preview_component_REACT/static/js/main.f4af8b9a.js.map",
+    "787.5a5a19d0.chunk.js.map": "/FEM-Article_preview_component_REACT/static/js/787.5a5a19d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.319750f5.css",
+    "static/js/main.f4af8b9a.js"
+  ]
+}
