@@ -6,3 +6,14 @@
   background-color: #fff;
   border-radius: .75rem;
 }
+
+@media screen and (min-width: 768px) {
+  .App {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto auto;
+    width: 50%;
+    min-height: 10rem;
+  }
+
+}

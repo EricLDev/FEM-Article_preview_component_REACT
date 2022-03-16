@@ -1,5 +1,5 @@
 .cardBody {
-    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    padding: 2.5rem;
     text-align: left;
 }
 
@@ -14,4 +14,16 @@
     color: hsl(214, 17%, 51%);
     padding-right: 1.25rem;
     line-height: 1.55rem;
+}
+
+@media screen and (min-width: 768px) {
+    .cardBody {
+        padding: 2.5rem 2.5rem 0 2.5rem;
+    }
+
+    .cardBodyTitle {
+        font-size: 1.5rem;
+
+    }
+
 }

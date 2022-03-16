@@ -6,16 +6,30 @@
     padding: 1.25rem 2.5rem;
 }
 
-.footerClicked {
+.cardFooterClicked {
     background-color: hsl(217, 19%, 35%);
     border-radius: 0 0 .75rem .75rem;
 }
+
+.footerText {
+    display: flex;
+}
+
+.socialMediaHidden, .footerTextHidden {
+    display: none;
+}
+
+.socialMediaVisible {
+    display: flex;
+    background-color: hsl(217, 19%, 35%);
+}
+
 
 .socialIcons img {
     margin: 0 .5rem;
 }
 
-.footerClicked p {
+.socialMediaVisible p {
     color: hsl(212, 23%, 69%);
     letter-spacing: .5rem;
     margin-right: .75rem;
@@ -48,4 +62,42 @@
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .cardFooter {
+        padding: 2rem 2.5rem;
+    }
+
+    .cardFooterClicked {
+        background-color: #fff;
+    }
+
+    .socialMediaVisible {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        border-radius: .5rem;
+        z-index: 9;
+        bottom: 45%;
+        left: 63.5%;
+        padding: 1rem 1.5rem;
+        font-size: .9rem;
+    }
+
+    .socialMediaVisible::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -.5rem;
+        border-width: 1rem;
+        border-style: solid;
+        border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+    }
+
+    .footerTextHidden {
+        display: flex;
+    }
 }
