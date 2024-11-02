@@ -1,7 +1,7 @@
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/react-component-using-grid-flexbox-dynamic-styling-QADGvmteu]
-- Live Site URL: [https://ericl81.github.io/FEM-Article_preview_component_REACT/]
+- Live Site URL: [https://ericldev.github.io/FEM-Article_preview_component_REACT/]
 
 # Frontend Mentor - Article preview component
 
